@@ -10,7 +10,8 @@ abstract class Adatbazis
    public static function create()
    {
       self::$adatok = array();
-      while (count(self::$adatok) < 20) {
+      while (count(self::$adatok) < 20)
+      {
          $parkolas = new Parkolas();
          self::$adatok[] = $parkolas;
       }
@@ -27,7 +28,8 @@ abstract class Adatbazis
    {
       self::create();
       $szoveg = "";
-      foreach (self::$adatok as $parkolas) {
+      foreach (self::$adatok as $parkolas)
+      {
          $szoveg .= $parkolas->rendszam . "<br>";
       }
       return $szoveg;
