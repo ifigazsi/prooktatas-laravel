@@ -1,0 +1,3 @@
+A rendszamok:
+
+{{ $rendszamok }}

@@ -1,0 +1,1 @@
+Welcome on admin page. Time: {{ $time }}
